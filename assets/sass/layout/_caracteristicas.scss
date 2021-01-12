@@ -1,0 +1,33 @@
+.caracteristicas{
+    margin: 0 auto;
+    &__titulo{
+        text-align: center;
+    }
+    &__contenido{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 70px;
+        justify-items: center;
+        padding: 0 20px;
+        &__grafico{
+            margin-left: auto;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .caracteristicas__contenido{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+        grid-gap: 20px;
+        &__grafico{
+            margin-left: 0;
+        }
+        &__texto{
+            h3{
+                text-align: center;
+            }
+        }
+    }
+}
