@@ -1,0 +1,21 @@
+.NavBar__botones{
+&--iniciar{
+    background-color: white;
+    border: white;
+    cursor: pointer;
+    padding: 8px;
+}
+&--registrate{
+    color: white;
+    background-color: $ball-blue ;
+    border: $ball-blue;
+    cursor: pointer;
+    padding: 8px;
+    &:hover{
+        background-color: $middle-blue ;
+    }
+    &:focus{
+        background-color: $silver-chalice;
+    }
+}
+}

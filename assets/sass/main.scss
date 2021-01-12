@@ -10,14 +10,16 @@
 
 //  Layout
     @import 'layout/grid';
-    @import 'layout/aside';
-    @import 'layout/footer';
     @import 'layout/navigation';
-    @import 'layout/newsletter';
-    @import 'layout/noticias';
+    @import 'layout/presentacion';
+    @import 'layout/navigation';
+    @import 'layout/precios';
+    @import 'layout/footer';
 
 //  Components
-    @import 'components/buttons'
+    @import 'components/buttons';
+    @import 'components/navbar.scss';
+    @import 'components/cards.scss';
     
 //  Page
 
