@@ -1,0 +1,36 @@
+body {
+    display: grid;
+    grid-template: repeat(5, auto);
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media only screen and (min-width: 576px){
+    .container{
+    width: 565px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  
+
+  @media only screen and (min-width: 992px) {
+    .container {
+      width: 992px;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .container {
+      width: 1200px;
+    }
+  }
