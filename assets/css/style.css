@@ -428,12 +428,20 @@ body {
 }
 .hero__texto {
   display: inline-block;
-  width: 20%;
+  width: 27%;
   position: absolute;
   top: 0;
-  left: 0;
+  left: 85px;
 }
 
+@media only screen and (max-width: 768px) {
+  .hero__texto {
+    display: block;
+    position: static;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
 .NavBar {
   display: flex;
   justify-content: space-between;
