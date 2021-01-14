@@ -1,9 +1,58 @@
 .precios{
     background-image: url(../images/bg-price.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     height: auto;
     padding-top: 200px;
     &__titulo{
         text-align: center;
+        color: white;
     }
 }
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-gap: 50px;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 45px;
+    &__card{
+        background-color: white;
+        border: solid 1px black;
+        padding: 20px 35px;
+        height: 400px;
+        ul{
+            margin-left: 12px;
+            height: 203px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .cards{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+        grid-gap: 20px;
+        &__card{
+            width: 315px;
+        }
+    }
+}
+
+.cards__card__boton{
+        color: white;
+        background-color: $ball-blue ;
+        border: $ball-blue;
+        cursor: pointer;
+        padding: 8px;
+        width: 100%;
+        &:hover{
+            background-color: $middle-blue ;
+        }
+        &:focus{
+            background-color: $silver-chalice;
+        }
+    }
