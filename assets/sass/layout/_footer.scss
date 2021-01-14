@@ -1,5 +1,24 @@
 .footer {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 87px;
+    background-color: $raising-black;
+    &__lista{
+        display: flex;
+        list-style: none;
+        li a{
+            color: white;
+            margin-right: 17px;
+        }
+    }
+    &__copyright{
+        color: white;
+    }
 }
+
+@media only screen and (max-width: 768px) {
+    .footer{
+            display: block;
+        }
+    }
