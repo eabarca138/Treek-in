@@ -626,12 +626,7 @@ body {
 .cards__card {
   background-color: white;
   border: solid 1px black;
-  cursor: pointer;
   padding: 1.25rem 2.1875rem;
-  transition: 0.2s linear;
-}
-.cards__card:hover {
-  box-shadow: 3px 3px 7px #2ab7ca, -3px -3px 7px #2ab7ca;
 }
 .cards__card h5 {
   margin-bottom: 0.625rem;
@@ -640,16 +635,6 @@ body {
 .cards__card ul {
   margin-left: 0.75rem;
   height: 12.6875rem;
-}
-
-@media only screen and (min-width: 768px) {
-  .cards__card {
-    transition: 0.2s linear;
-  }
-  .cards__card:hover {
-    transform: scale(1.1);
-    box-shadow: 3px 3px 7px #2ab7ca, -3px -3px 7px #2ab7ca;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */
