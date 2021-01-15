@@ -4,7 +4,7 @@
     background-size: cover;
     width: 100%;
     height: auto;
-    padding-top: 200px;
+    padding-top: 12.5rem;
     &__titulo{
         text-align: center;
         color: white;
@@ -14,18 +14,22 @@
 .cards{
     display: grid;
     grid-template-columns: repeat(2 , 1fr);
-    grid-gap: 50px;
+    grid-gap: 3.125rem;
     justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 45px;
+    padding-top: 1.25rem;
+    padding-bottom: 2.8125rem;
     &__card{
         background-color: white;
         border: solid 1px black;
-        padding: 20px 35px;
-        height: 400px;
+        padding: 1.25rem 2.1875rem;
+        height: 27.5rem;
+        h5{
+            margin-bottom: 0.625rem;
+            margin-top: 0.625rem;
+        }
         ul{
-            margin-left: 12px;
-            height: 203px;
+            margin-left: 0.75rem;
+            height: 12.6875rem;
         }
     }
 }
@@ -35,24 +39,9 @@
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
         justify-items: center;
-        grid-gap: 20px;
+        grid-gap: 1.25rem;
         &__card{
-            width: 315px;
+            width: 19.6875rem;
         }
     }
 }
-
-.cards__card__boton{
-        color: white;
-        background-color: $ball-blue ;
-        border: $ball-blue;
-        cursor: pointer;
-        padding: 8px;
-        width: 100%;
-        &:hover{
-            background-color: $middle-blue ;
-        }
-        &:focus{
-            background-color: $silver-chalice;
-        }
-    }

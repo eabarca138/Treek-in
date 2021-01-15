@@ -1,16 +1,18 @@
+//BOTONES NAV
+
 .NavBar__botones{
 &--iniciar{
     background-color: white;
     border: white;
     cursor: pointer;
-    padding: 8px;
+    padding: 0.625rem;
 }
 &--registrate{
     color: white;
     background-color: $ball-blue ;
     border: $ball-blue;
     cursor: pointer;
-    padding: 8px;
+    padding: 0.625rem;
     &:hover{
         background-color: $middle-blue ;
     }
@@ -18,4 +20,21 @@
         background-color: $silver-chalice;
     }
 }
+}
+
+//BOTONES CARDS
+
+.cards__card__boton{
+    color: white;
+    background-color: $ball-blue ;
+    border: $ball-blue;
+    cursor: pointer;
+    padding: 0.625rem;
+    width: 100%;
+    &:hover{
+        background-color: $middle-blue ;
+    }
+    &:focus{
+        background-color: $silver-chalice;
+    }
 }

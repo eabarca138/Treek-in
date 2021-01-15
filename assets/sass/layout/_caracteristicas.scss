@@ -6,7 +6,7 @@
     &__contenido{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 70px;
+        grid-gap: 4.375rem;
         justify-items: center;
     }
 }
@@ -16,11 +16,13 @@
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
         justify-items: center;
-        grid-gap: 20px;
+        grid-gap: 1.25rem;
         &__grafico{
             margin-left: 0;
         }
         &__texto{
+            position: relative;
+            bottom: 4.625rem;
             h3{
                 text-align: center;
             }

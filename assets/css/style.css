@@ -362,8 +362,16 @@ hr {
 }
 
 body {
-  font-family: monospace;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Raleway", sans-serif;
+}
+
+h5 {
+  font-size: 25px;
 }
 
 body {
@@ -402,7 +410,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: auto 87px;
+  margin: auto 5.4375rem;
 }
 .NavBar__lista {
   list-style: none;
@@ -454,7 +462,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: auto 87px;
+  margin: auto 5.4375rem;
 }
 .NavBar__lista {
   list-style: none;
@@ -489,7 +497,7 @@ body {
   background-size: cover;
   width: 100%;
   height: auto;
-  padding-top: 200px;
+  padding-top: 12.5rem;
 }
 .precios__titulo {
   text-align: center;
@@ -499,20 +507,24 @@ body {
 .cards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 50px;
+  grid-gap: 3.125rem;
   justify-content: center;
-  padding-top: 20px;
-  padding-bottom: 45px;
+  padding-top: 1.25rem;
+  padding-bottom: 2.8125rem;
 }
 .cards__card {
   background-color: white;
   border: solid 1px black;
-  padding: 20px 35px;
-  height: 400px;
+  padding: 1.25rem 2.1875rem;
+  height: 27.5rem;
+}
+.cards__card h5 {
+  margin-bottom: 0.625rem;
+  margin-top: 0.625rem;
 }
 .cards__card ul {
-  margin-left: 12px;
-  height: 203px;
+  margin-left: 0.75rem;
+  height: 12.6875rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -520,27 +532,12 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     justify-items: center;
-    grid-gap: 20px;
+    grid-gap: 1.25rem;
   }
   .cards__card {
-    width: 315px;
+    width: 19.6875rem;
   }
 }
-.cards__card__boton {
-  color: white;
-  background-color: #2ab7ca;
-  border: #2ab7ca;
-  cursor: pointer;
-  padding: 8px;
-  width: 100%;
-}
-.cards__card__boton:hover {
-  background-color: #77d1dd;
-}
-.cards__card__boton:focus {
-  background-color: #aeacaf;
-}
-
 .footer {
   display: flex;
   justify-content: space-between;
@@ -550,6 +547,7 @@ body {
 }
 .footer__lista {
   display: flex;
+  justify-content: center;
   list-style: none;
 }
 .footer__lista li a {
@@ -562,7 +560,8 @@ body {
 
 @media only screen and (max-width: 768px) {
   .footer {
-    display: block;
+    display: inline-block;
+    text-align: center;
   }
 }
 .caracteristicas {
@@ -574,7 +573,7 @@ body {
 .caracteristicas__contenido {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 70px;
+  grid-gap: 4.375rem;
   justify-items: center;
 }
 
@@ -583,10 +582,14 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     justify-items: center;
-    grid-gap: 20px;
+    grid-gap: 1.25rem;
   }
   .caracteristicas__contenido__grafico {
     margin-left: 0;
+  }
+  .caracteristicas__contenido__texto {
+    position: relative;
+    bottom: 4.625rem;
   }
   .caracteristicas__contenido__texto h3 {
     text-align: center;
@@ -596,19 +599,34 @@ body {
   background-color: white;
   border: white;
   cursor: pointer;
-  padding: 8px;
+  padding: 0.625rem;
 }
 .NavBar__botones--registrate {
   color: white;
   background-color: #2ab7ca;
   border: #2ab7ca;
   cursor: pointer;
-  padding: 8px;
+  padding: 0.625rem;
 }
 .NavBar__botones--registrate:hover {
   background-color: #77d1dd;
 }
 .NavBar__botones--registrate:focus {
+  background-color: #aeacaf;
+}
+
+.cards__card__boton {
+  color: white;
+  background-color: #2ab7ca;
+  border: #2ab7ca;
+  cursor: pointer;
+  padding: 0.625rem;
+  width: 100%;
+}
+.cards__card__boton:hover {
+  background-color: #77d1dd;
+}
+.cards__card__boton:focus {
   background-color: #aeacaf;
 }
 
