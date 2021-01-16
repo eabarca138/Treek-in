@@ -713,6 +713,10 @@ body {
   color: black;
 }
 
+.fa-bars {
+  color: black;
+}
+
 .cards__card {
   background-color: white;
   border: solid 1px black;
