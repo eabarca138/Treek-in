@@ -1,0 +1,95 @@
+.a1-bar{
+    animation-name: barra1;
+    animation-duration: 1.7s;
+    animation-iteration-count: infinite;
+    animation-delay: .8s;
+}
+
+.a2-bar{
+    animation-name: barra2;
+    animation-duration: 1.7s;
+    animation-iteration-count: infinite;
+    animation-delay: .8s;
+}
+
+.a3-bar{
+    animation-name: barra3;
+    animation-duration: 1.7s;
+    animation-iteration-count: infinite;
+    animation-delay: .8s;
+}
+
+.b1-bar{
+    animation-name: barra4;
+    animation-duration: 1.7s;
+    animation-iteration-count: infinite;
+    animation-delay: .8s;
+}
+
+.b2-bar{
+    animation-name: barra5;
+    animation-duration: 1.7s;
+    animation-iteration-count: infinite;
+    animation-delay: .8s;
+}
+
+.b3-bar{
+    animation-name: barra6;
+    animation-duration: 1.7s;
+    animation-iteration-count: infinite;
+    animation-delay: .8s;
+}
+
+@keyframes barra1 {
+    0% {
+        clip-path: path('M10.949 160h34.778v108H10.949z');
+    }
+    100% {
+        clip-path: path('M10.949 53h34.778v108H10.949z');
+    }
+}
+
+@keyframes barra2 {
+    0% {
+        clip-path: path('M63.613 160h34.778v161H63.613z');;
+    }
+    100% {
+        clip-path: path('M63.613 0h34.778v161H63.613z');
+    }
+}
+
+@keyframes barra3 {
+    0% {
+        clip-path: path('M116.276 160h34.778v129h-34.778z');
+    }
+    100% {
+        clip-path: path('M116.276 32h34.778v129h-34.778z');
+    }
+}
+
+@keyframes barra4 {
+    0% {
+        clip-path: path('M168.94 160h34.778v108H168.94z');
+    }
+    100% {
+        clip-path: path('M168.94 53h34.778v108H168.94z');
+    }
+}
+
+@keyframes barra5 {
+    0% {
+        clip-path: path('M221.603 160h34.778v133h-34.778z');;
+    }
+    100% {
+        clip-path: path('M221.603 28h34.778v133h-34.778z');
+    }
+}
+
+@keyframes barra6 {
+    0% {
+        clip-path: path('M274.267 160h34.778v88h-34.778z');
+    }
+    100% {
+        clip-path: path('M274.267 73h34.778v88h-34.778z');
+    }
+}

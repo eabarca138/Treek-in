@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 87px;
+    padding: 1.5625rem 5.4375rem;
     background-color: $raising-black;
     &__lista{
         display: flex;
@@ -10,7 +10,7 @@
         list-style: none;
         li a{
             color: white;
-            margin-right: 17px;
+            margin-right: 1.0625rem;
         }
     }
     &__copyright{
